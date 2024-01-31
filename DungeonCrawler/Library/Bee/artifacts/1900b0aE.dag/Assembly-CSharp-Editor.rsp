@@ -333,6 +333,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/GraphicAssets/Tilemap/CustomBrushScripts/CoordinateBrush/Editor/CoordinateBrush.cs"
+"Assets/Scripts/NodeGraph/Editor/RoomNodeGraphEditor.cs"
 -langversion:8.0
 
 /deterministic
