@@ -60,6 +60,10 @@
   <ItemGroup>
     <Compile Include="Assets\GraphicAssets\Tilemap\CustomBrushScripts\CoordinateBrush\Editor\CoordinateBrush.cs" />
     <Compile Include="Assets\Scripts\NodeGraph\Editor\RoomNodeGraphEditor.cs" />
+    <Compile Include="Assets\Scripts\NodeGraph\Editor\RoomNodeGraphSO.cs" />
+    <Compile Include="Assets\Scripts\NodeGraph\Editor\RoomNodeSO.cs" />
+    <Compile Include="Assets\Scripts\NodeGraph\Editor\RoomNodeTypeSO.cs" />
+    <Compile Include="Assets\Scripts\NodeGraph\Editor\RoomNodeTypeListSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -956,6 +960,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{AB5532A4-EBEC-0F95-E7F0-E88FC1165F30}</Project>
+      <Name>Assembly-CSharp</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

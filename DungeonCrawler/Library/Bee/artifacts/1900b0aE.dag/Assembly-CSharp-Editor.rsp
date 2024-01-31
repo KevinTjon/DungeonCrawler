@@ -307,6 +307,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"D:/Git Projects/DungeonCrawler/DungeonCrawler/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
 -r:"D:/Git Projects/DungeonCrawler/DungeonCrawler/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
@@ -334,6 +335,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/GraphicAssets/Tilemap/CustomBrushScripts/CoordinateBrush/Editor/CoordinateBrush.cs"
 "Assets/Scripts/NodeGraph/Editor/RoomNodeGraphEditor.cs"
+"Assets/Scripts/NodeGraph/Editor/RoomNodeGraphSO.cs"
+"Assets/Scripts/NodeGraph/Editor/RoomNodeSO.cs"
+"Assets/Scripts/NodeGraph/Editor/RoomNodeTypeListSO.cs"
+"Assets/Scripts/NodeGraph/Editor/RoomNodeTypeSO.cs"
 -langversion:8.0
 
 /deterministic
