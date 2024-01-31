@@ -1,2 +1,3 @@
 # DungeonCrawler
-Game Project
+Game Project - 2D Unity DungeonCrawler
+
